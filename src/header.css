@@ -1,0 +1,50 @@
+body{
+    margin: 0; 
+}
+
+.Principal{
+    display: flex; 
+    flex-direction: row;
+}
+
+.Logo-image{
+    width: 25%;
+    margin: none;
+    margin-left: 10%;
+}
+
+.mesage{
+    text-align: center;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.Buscador{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.Logo{
+    width: 20%;
+    height: auto;
+}
+
+.icon{
+    width: 70%;
+}
+
+.Barra{
+    width: 100%;
+}
+
+.barraBusqueda{
+    width: 85%;
+    height: 30px;
+    border: none; 
+    border-radius: 5px;
+}

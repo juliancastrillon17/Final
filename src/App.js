@@ -1,23 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+import Hook from './modules/api';
+import Head from './modules/header';
+import Foot from './modules/foot';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="Mundo">
+      <Head/>
+
+      <div className='titulo'>
+        <center>
+          <h2>POSTS</h2>
+        </center>
+      </div>
+      <div className='postss'>
+        <Hook/> {/* Conectado el módulo */} 
+      </div>
+      <div className="Footer">
+        <Foot/>
+      </div>
     </div>
   );
 }
